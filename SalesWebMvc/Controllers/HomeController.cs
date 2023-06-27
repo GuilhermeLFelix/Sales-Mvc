@@ -20,6 +20,8 @@ namespace SalesWebMvc.Controllers
 
         public IActionResult Index()
         {
+            ViewData["Message"] = "Salles Project!";
+
             return View();
         }
 
